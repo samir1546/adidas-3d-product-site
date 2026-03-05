@@ -1,18 +1,21 @@
 # Adidas 3D Product Site
 
-A **production-ready interactive 3D Adidas product website** built using **Next.js**, **Tailwind CSS**, **Three.js**, and **GSAP**.  
-This project showcases **immersive 3D product visualization** with smooth animations and a responsive design for modern web experiences.
+A **production-ready interactive 3D Adidas product website** built with **Next.js**, **Tailwind CSS**, **Three.js**, and **GSAP**.  
+This project showcases **immersive 3D product visualization**, smooth animations, and a fully responsive design for modern web experiences.
+
+Experience an interactive 3D Adidas product showcase with animations and responsive design, perfect for demonstrating modern web development with **3D graphics**.
 
 ---
 
 ## 🌟 Features
 
-- Interactive **3D Adidas product models** using **Three.js**  
-- Smooth, scroll-based and interactive **animations powered by GSAP**  
-- Responsive layout with **Tailwind CSS**  
-- Built with **Next.js** for production-ready React architecture  
-- Optimized for **performance and SEO**  
-- Fully modular and easily extendable
+- Fully **interactive 3D Adidas product models** using **Three.js**  
+- Smooth **scroll-based and interactive animations** powered by **GSAP**  
+- **Responsive layout** using **Tailwind CSS** for mobile, tablet, and desktop  
+- Production-ready architecture using **Next.js**  
+- Optimized for **performance** and **SEO**  
+- Modular and easily extendable components  
+- **Interactive buttons, hover effects, and transitions** for enxhanced UX  
 
 ---
 
@@ -22,7 +25,8 @@ This project showcases **immersive 3D product visualization** with smooth animat
 - **Tailwind CSS** – Utility-first CSS framework for styling  
 - **Three.js** – 3D graphics and WebGL rendering  
 - **GSAP** – High-performance animation library  
-- **Vercel** (optional) – Recommended for deployment  
+- **React Three Fiber** – React renderer for Three.js  
+- **Vercel** (optional) – Deployment platform for production  
 
 ---
 
@@ -34,3 +38,31 @@ Follow these steps to **set up the project locally**:
 ```bash
 git clone https://github.com/<your-username>/adidas-3d-product-site.git
 cd adidas-3d-product-site
+```
+### 2. Install dependencies
+
+Make sure you have Node.js (v18 or higher) installed, then run
+
+**npm install**
+
+
+### 3. Run the development server
+**npm run dev**
+
+Open http://localhost:3000
+ in your browser to see the website.
+
+## ⚙️ Project Structure
+```base
+adidas-3d-product-site/
+├─ app/
+│  ├─ page.tsx         # Main page component
+│  ├─ layout.tsx       # Layout and navigation
+├─ components/         # Reusable React components (3D viewer, buttons, sliders)
+├─ public/
+│  ├─ models/          # 3D model files (.glb, .gltf)
+│  ├─ images/          # Static images
+├─ styles/             # Tailwind CSS configurations
+├─ package.json        # Project dependencies
+├─ next.config.js      # Next.js configuration
+└─ README.md           # Project documentation
