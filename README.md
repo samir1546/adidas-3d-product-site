@@ -43,14 +43,17 @@ cd adidas-3d-product-site
 
 Make sure you have Node.js (v18 or higher) installed, then run
 
-**npm install**
-
+```base
+npm install
+```
 
 ### 3. Run the development server
-**npm run dev**
-
-Open http://localhost:3000
- in your browser to see the website.
+```base
+npm run dev
+```
+```base 
+Open http://localhost:3000 in your browser to see the website.
+```
 
 ## ⚙️ Project Structure
 ```base
@@ -66,3 +69,20 @@ adidas-3d-product-site/
 ├─ package.json        # Project dependencies
 ├─ next.config.js      # Next.js configuration
 └─ README.md           # Project documentation
+```
+
+
+## 🎉 Happy End Lines
+Choose your favorite vibe at the end of the README:
+
+## Simple and cheerful:
+🎉 Enjoy exploring the 3D Adidas products! Have fun! 🚀
+
+## Developer-friendly:
+💻 Made with love for 3D web experiences. Happy coding! 😄
+
+## Interactive vibe:
+✨ Dive in, interact, and have fun with 3D animations! 🎨
+
+## Casual & fun:
+😎 That’s it! Now go spin, zoom, and enjoy the Adidas 3D world! 🏀
